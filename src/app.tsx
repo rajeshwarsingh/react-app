@@ -1,26 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './app.css';
+import { getNavMeta, LOGGED_IN } from './constants/navigation-meta';
+import { RoutesGuard } from './helpers';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const navMeta = getNavMeta(LOGGED_IN);
+  return <RoutesGuard root navMeta={navMeta} />;
 }
-
 export default App;
