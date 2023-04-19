@@ -2,7 +2,7 @@
 title: 'React application boilerplate'
 author:
   - name: 'Rajeshwar Singh'
-    url: 
+    url:
 ---
 
 ## Author
@@ -13,17 +13,7 @@ author:
 
 This project is made based of
 
--[React 18.2.0]
--[Create react app ](https://create-react-app.dev/docs/getting-started)
--[Create react app ](https://create-react-app.dev/docs/getting-started)
--[React Router v6 ](https://create-react-app.dev/docs/getting-started)
--[Eslint ](https://create-react-app.dev/docs/getting-started)
--[Prettier ](https://create-react-app.dev/docs/getting-started)
--[Husky pre/post commit hook ](https://create-react-app.dev/docs/getting-started)
--[Storybook ](https://create-react-app.dev/docs/getting-started)
--[plop- Generators (component/page) ](https://create-react-app.dev/docs/getting-started)
--[Typescript ](https://create-react-app.dev/docs/getting-started)
-
+-[React 18.2.0] -[Create react app ](https://create-react-app.dev/docs/getting-started) -[Create react app ](https://create-react-app.dev/docs/getting-started) -[React Router v6 ](https://create-react-app.dev/docs/getting-started) -[Eslint ](https://create-react-app.dev/docs/getting-started) -[Prettier ](https://create-react-app.dev/docs/getting-started) -[Husky pre/post commit hook ](https://create-react-app.dev/docs/getting-started) -[Storybook ](https://create-react-app.dev/docs/getting-started) -[plop- Generators (component/page) ](https://create-react-app.dev/docs/getting-started) -[Typescript ](https://create-react-app.dev/docs/getting-started)
 
 # Getting Started with Create React App
 
@@ -45,6 +35,18 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn run lint`
+
+Get the eslint issue from the project folder.\
+
+### `yarn run lint:fix`
+
+Fix the eslint issue from the project folder.\
+
+### `yarn run format`
+
+Format all file with pretier from the project folder
 
 ### `yarn build`
 
